@@ -73,7 +73,7 @@ h2 {
     }
 
     .boxsitus {
-  background: linear-gradient(135deg, #42a5f5, #1e88e5);
+  background: linear-gradient(135deg, #72e5d0, #46d1a5);
   color: white;
   width: 20%;
   padding: 2% 1%;
@@ -156,4 +156,5 @@ h2 {
       .boxsitus {
         width: 100%;
       }
+
     }
