@@ -82,7 +82,7 @@ h2 {
   box-sizing: border-box;
   margin: 2% 2%;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 4px 8px rgba(33, 150, 243, 0.3);
+  box-shadow: 0 4px 8px rgb(0 0 0 / 30%);
   cursor: pointer;
   user-select: none;
   position: relative;
@@ -158,3 +158,4 @@ h2 {
       }
 
     }
+
