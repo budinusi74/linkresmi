@@ -1,0 +1,159 @@
+h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    /* Container untuk input dan tombol search */
+    .search-wrapper {
+      margin: 0 auto 30px auto;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    /* Input pencarian */
+    #searchInput {
+      flex-grow: 1;
+      padding: 12px 20px;
+      width: 50%;
+      max-width: 400px;
+      font-size: 16px;
+      border: 2px solid #2196F3;
+      border-radius: 30px;
+      box-shadow: 0 4px 6px rgba(33, 150, 243, 0.3);
+      transition: all 0.3s ease;
+      outline: none;
+      background-color: white;
+    }
+
+    #searchInput::placeholder {
+      color: #90caf9;
+      font-style: italic;
+    }
+
+    #searchInput:focus {
+      border-color: #0d47a1;
+      box-shadow: 0 0 10px #0d47a1;
+      background-color: #e3f2fd;
+    }
+
+    /* Tombol search */
+    #searchBtn {
+      background: linear-gradient(45deg, #2196F3, #21CBF3);
+      border: none;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(33, 150, 243, 0.4);
+      transition: all 0.3s ease;
+      user-select: none;
+    }
+
+    #searchBtn:hover {
+      background: linear-gradient(45deg, #21CBF3, #2196F3);
+      box-shadow: 0 8px 20px rgba(33, 150, 243, 0.7);
+      transform: translateY(-2px);
+    }
+
+    #searchBtn:active {
+      transform: translateY(0);
+      box-shadow: 0 3px 10px rgba(33, 150, 243, 0.3);
+    }
+
+    /* Container menu */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .boxsitus {
+  background: linear-gradient(135deg, #42a5f5, #1e88e5);
+  color: white;
+  width: 20%;
+  padding: 2% 1%;
+  text-align: center;
+  border-radius: 12px;
+  box-sizing: border-box;
+  margin: 2% 2%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(33, 150, 243, 0.3);
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-situs {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.title-situs {
+  display: none;
+}
+
+.boxsitus:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 20px rgba(33, 150, 243, 0.6);
+}
+
+/* Efek highlight animasi bergerak di hover */
+.boxsitus::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at center, rgba(255,255,255,0.2), transparent 70%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+  transform: rotate(25deg);
+}
+
+.boxsitus:hover::before {
+  opacity: 1;
+  animation: shine 1.2s ease forwards;
+}
+
+@keyframes shine {
+  0% {
+    transform: translateX(-100%) rotate(25deg);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%) rotate(25deg);
+    opacity: 0;
+  }
+}
+
+
+    @media (max-width: 900px) {
+      .boxsitus {
+        width: 30%;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .boxsitus {
+        width: 45%;
+      }
+    }
+
+    @media (max-width: 400px) {
+      .boxsitus {
+        width: 100%;
+      }
+    }
