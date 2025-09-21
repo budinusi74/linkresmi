@@ -167,7 +167,7 @@ h2 {
             display: flex;
             justify-content: center; /* Menyusun konten secara horizontal di tengah */
             align-items: center; /* Menyusun konten secara vertikal di tengah */
-            height: 100vh; /* Membuat tinggi container 100% dari tinggi layar */
+            height: auto; /* Membuat tinggi container 100% dari tinggi layar */
             margin: 0; /* Menghapus margin default */
             background-color: #f0f0f0; /* Memberikan warna latar belakang yang lembut */
         }
@@ -235,3 +235,4 @@ h2 {
 
 
 /* TOMBOL GAME END */
+
