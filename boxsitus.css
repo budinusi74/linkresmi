@@ -1,3 +1,4 @@
+/* TOMBOL LINK START */
 h2 {
       text-align: center;
       color: #333;
@@ -159,4 +160,78 @@ h2 {
 
     }
 
+/* TOMBOL LINK END */
 
+/* TOMBOL GAME START */
+        .posisitombolgame {
+            display: flex;
+            justify-content: center; /* Menyusun konten secara horizontal di tengah */
+            align-items: center; /* Menyusun konten secara vertikal di tengah */
+            height: 100vh; /* Membuat tinggi container 100% dari tinggi layar */
+            margin: 0; /* Menghapus margin default */
+            background-color: #f0f0f0; /* Memberikan warna latar belakang yang lembut */
+        }
+
+        /* Gaya tombol */
+        .buttongame {
+            display: inline-block;
+            padding: 14px 28px;
+            color: white; /* Warna teks tetap putih */
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek 3D */
+            transition: all 0.3s ease; /* Efek transisi yang halus untuk semua perubahan */
+            position: relative;
+            animation: tombolgamewarna 5s infinite linear, tombolgamepulse 1.5s infinite ease-in-out; /* Animasi warna dan detak */
+        }
+
+        /* Efek hover */
+        .buttongame:hover {
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            transform: translateY(-4px);
+        }
+
+        /* Efek aktif (saat tombol diklik) */
+        .buttongame:active {
+            transform: translateY(2px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Animasi warna latar belakang tombol berubah-ubah */
+        @keyframes tombolgamewarna {
+            0% {
+                background-color: #ff0080; /* Warna pink */
+            }
+            25% {
+                background-color: #ff8c00; /* Warna oranye */
+            }
+            50% {
+                background-color: #32cd32; /* Warna hijau */
+            }
+            75% {
+                background-color: #00bfff; /* Warna biru */
+            }
+            100% {
+                background-color: #8a2be2; /* Warna ungu */
+            }
+        }
+
+        /* Animasi tombol berdetak */
+        @keyframes tombolgamepulse {
+            0% {
+                transform: scale(1); /* Ukuran normal */
+            }
+            50% {
+                transform: scale(1.1); /* Membesar sedikit */
+            }
+            100% {
+                transform: scale(1); /* Kembali ke ukuran normal */
+            }
+        }
+
+
+/* TOMBOL GAME END */
