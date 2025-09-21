@@ -169,7 +169,7 @@ h2 {
             align-items: center; /* Menyusun konten secara vertikal di tengah */
             height: auto; /* Membuat tinggi container 100% dari tinggi layar */
             margin: 0; /* Menghapus margin default */
-            background-color: #f0f0f0; /* Memberikan warna latar belakang yang lembut */
+            background-color: transparent; /* Memberikan warna latar belakang yang lembut */
         }
 
         /* Gaya tombol */
@@ -235,4 +235,5 @@ h2 {
 
 
 /* TOMBOL GAME END */
+
 
