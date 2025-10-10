@@ -8,6 +8,7 @@ function linkcounterstrike2() {window.open("https://www.counter-strike.net/cs2")
 function linkkingofglory() {window.open("https://king-of-glory.en.filerox.com/android");}
 function linkrothelostmemories() {window.open("https://ragnarok-the-lost-memories.en.uptodown.com/android");}
 function linkroblox() {window.open("https://www.roblox.com/");}
+function linkqq288() {window.open("https://qq288qsc.com/");}
 
 
 
