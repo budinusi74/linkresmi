@@ -1,5 +1,6 @@
 function link() {location.replace("#");}
 function link() {window.open("#");}
+function linksitusa() {window.open("https://tanpavpn.com/situs/linkresmi/");}
 function linkdota2() {window.open("https://www.dota2.com/home");}
 function linkmobilelegend() {window.open("https://www.mobilelegends.com/");}
 function linkleagueoflegends() {window.open("https://www.leagueoflegends.com/en-gb/");}
@@ -10,6 +11,7 @@ function linkrothelostmemories() {window.open("https://ragnarok-the-lost-memorie
 function linkroblox() {window.open("https://www.roblox.com/");}
 function linkslclashofspirimasters() {window.open("https://play.google.com/pc-store/games/details?id=com.global.dl3dvn&hl=en");}
 function linkqq288() {window.open("https://qq288qsc.com/");}
+
 
 
 
